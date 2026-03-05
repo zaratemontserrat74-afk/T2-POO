@@ -29,9 +29,9 @@ fun main() {
     val rect = Rectangulo(5.0, 3.0)
     val circ = Circulo(4.0)
 
-    println("Rectángulo - Área: %.2f, Perímetro: %.2f"
+    println("Rectángulo - Área: $%.2f, Perímetro: $%.2f"
         .format(rect.calcularArea(), rect.calcularPerimetro()))
 
-    println("Círculo - Área: %.2f, Perímetro: %.2f"
+    println("Círculo - Área: $%.2f, Perímetro: $%.2f"
         .format(circ.calcularArea(), circ.calcularPerimetro()))
 }
